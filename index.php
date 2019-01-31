@@ -1,3 +1,6 @@
 <?php
-echo "hello world";
+
+header("Location: php/start.php");
+
+echo "hello";
 ?>
