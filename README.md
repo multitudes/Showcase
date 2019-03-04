@@ -32,3 +32,6 @@ with autocomplete
 the user will see the playlist with the player (here just one song)
 
 <img src="/pasted-image-51 copy.png" alt="drawing" width="600"/>
+
+The final design of the website is not yet done, this is just the php server side code, to store the data in a mySQL database and retrieve the information needed.
+It is a secure login. The one time magic link is not secure. Eventually a better solution should be implemented creating a user account for recurring users. However being aware that the prospect of creating yet another account with password could be daunting for some customers, I decided to implemented a passwordless login. This type of login contain a magic link sent per email to the customer and will be valid for just one login.
